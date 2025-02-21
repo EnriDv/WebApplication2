@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">LOGIN</h1>
+
+    @if (ViewData["msg"] != null)
+    {
+        <label>@ViewData["msg"]</label>
+        <hr />
+    }
+
+    <form method="post">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+
+                <label asp-for="usuario"> </label>
+
+                <label class="form-label">Email</label>
+                <input class="form-control" type="email" id="usuario" name="usuario" value="@ViewData["user"]" required>
+
+                <label class="form-label">Contraseña</label>
+                <input class="form-control" type="password" id="contrasena" name="contrasena" required>
+
+                <input type="hidden" id="nerror" name="nerror" value="@(ViewData["count"]==null?"0":ViewData["count"])">
+
+                <br />
+                <button class="form-control btn-info" type="submit">Ingresar</button>
+            </div>
+        </div>
+    </form>
+</div>

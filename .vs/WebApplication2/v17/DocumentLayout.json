@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dikyd\\source\\repos\\WebApplication2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32006A77-9CDF-4CFF-932D-7ADC6845B82A}|WebApplication2\\WebApplication2.csproj|c:\\users\\dikyd\\source\\repos\\webapplication2\\webapplication2\\pages\\newloginasp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{32006A77-9CDF-4CFF-932D-7ADC6845B82A}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\newloginasp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32006A77-9CDF-4CFF-932D-7ADC6845B82A}|WebApplication2\\WebApplication2.csproj|c:\\users\\dikyd\\source\\repos\\webapplication2\\webapplication2\\pages\\newloginasp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32006A77-9CDF-4CFF-932D-7ADC6845B82A}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\pages\\newloginasp.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewLoginASP.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\dikyd\\source\\repos\\WebApplication2\\WebApplication2\\Pages\\NewLoginASP.cshtml.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\NewLoginASP.cshtml.cs",
+              "ToolTip": "C:\\Users\\dikyd\\source\\repos\\WebApplication2\\WebApplication2\\Pages\\NewLoginASP.cshtml.cs",
+              "RelativeToolTip": "WebApplication2\\Pages\\NewLoginASP.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T20:18:15.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewLoginASP.cshtml",
+              "DocumentMoniker": "C:\\Users\\dikyd\\source\\repos\\WebApplication2\\WebApplication2\\Pages\\NewLoginASP.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Pages\\NewLoginASP.cshtml",
+              "ToolTip": "C:\\Users\\dikyd\\source\\repos\\WebApplication2\\WebApplication2\\Pages\\NewLoginASP.cshtml",
+              "RelativeToolTip": "WebApplication2\\Pages\\NewLoginASP.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-21T20:17:25.875Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
