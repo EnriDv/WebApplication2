@@ -1,35 +1,32 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Login";
 }
 
 <div class="text-center">
     <h1 class="display-4">LOGIN</h1>
 
-    @if (ViewData["msg"] != null)
+    @if (ViewData["ErrorMessage"] != null)
     {
-        <label>@ViewData["msg"]</label>
-        <hr />
+        <div class="alert alert-danger">@ViewData["ErrorMessage"]</div>
     }
 
     <form method="post">
         <div class="row">
             <div class="col-sm-4"></div>
             <div class="col-sm-4">
-
-                <label asp-for="usuario"> </label>
-
                 <label class="form-label">Email</label>
-                <input class="form-control" type="email" id="usuario" name="usuario" value="@ViewData["user"]" required>
+                <input class="form-control" type="text" asp-for="Usuario" required>
 
                 <label class="form-label">Contraseña</label>
-                <input class="form-control" type="password" id="contrasena" name="contrasena" required>
-
-                <input type="hidden" id="nerror" name="nerror" value="@(ViewData["count"]==null?"0":ViewData["count"])">
+                <input class="form-control" type="password" asp-for="Contrasena" required>
 
                 <br />
-                <button class="form-control btn-info" type="submit">Ingresar</button>
+                <button class="btn btn-primary w-100" type="submit">Ingresar</button>
+
+                <br /><br />
+                <a class="btn btn-secondary w-100" href="/Register">¿No tienes cuenta? Regístrate aquí</a>
             </div>
         </div>
     </form>

@@ -1,0 +1,51 @@
+﻿@page
+@model WebApplication2.Pages.Register
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center">Registro de Usuario</h2>
+
+    @if (ViewData["Message"] != null)
+    {
+        <div class="alert alert-info">@ViewData["Message"]</div>
+    }
+
+    <form method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <label class="form-label">Nombre</label>
+                <input class="form-control" type="text" asp-for="Nombre" required>
+
+                <label class="form-label">Apellido</label>
+                <input class="form-control" type="text" asp-for="Apellido" required>
+
+                <label class="form-label">Carnet de Identidad</label>
+                <input class="form-control" type="text" asp-for="CarnetIdentidad" required>
+
+                <label class="form-label">Teléfono</label>
+                <input class="form-control" type="tel" asp-for="Telefono" required>
+            </div>
+
+            <div class="col-md-6">
+                <label class="form-label">Email</label>
+                <input class="form-control" type="email" asp-for="Email" required>
+
+                <label class="form-label">Género</label>
+                <select class="form-control" asp-for="Genero" required>
+                    <option value="">Seleccione...</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Otro">Otro</option>
+                </select>
+
+                <label class="form-label">Carrera</label>
+                <input class="form-control" type="text" asp-for="Carrera" required>
+
+                <br />
+                <button class="btn btn-primary w-100" type="submit">Registrar</button>
+            </div>
+        </div>
+    </form>
+</div>
